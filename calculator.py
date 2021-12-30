@@ -5,5 +5,5 @@ from wtforms.validators import DataRequired
 
 class Calculator(FlaskForm):
     video_framerate = StringField('Video Framerate')
-    air_time = StringField('Air time', validators=[DataRequired])
-    
+    air_time = StringField('Air time', validators=[DataRequired()])
+
