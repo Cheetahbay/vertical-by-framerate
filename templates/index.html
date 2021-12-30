@@ -8,7 +8,7 @@
 </head>
 <body>
     <form action="">
-    {{ form.csrf_token() }}
+    {{ form.hidden_tag() }}
     {{ form.video_framerate.label(class_="form-control") }}
     {{ form.video_framerate(class_="form-control") }}
     {{ form.video_airtime.label(class_="form-control") }}
